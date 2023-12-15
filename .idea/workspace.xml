@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="200c7fab-df01-42f8-ae8d-b16e0d8fa0af" name="Changes" comment="" />
+    <list default="true" id="200c7fab-df01-42f8-ae8d-b16e0d8fa0af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/CommandeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/Commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/CommandeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/ImageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/repositories/CommandeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/repositories/ImageRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/serviceInterfaces/CommandeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/serviceInterfaces/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/CommandeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/util/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/configurations/Cors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/configurations/Cors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/CategorieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/CategorieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/ArticleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/ArticleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/repositories/ArticleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/repositories/ArticleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/serviceInterfaces/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/serviceInterfaces/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/configurations/Cors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/configurations/Cors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/controller/CategorieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/controller/CategorieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/ArticleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/ArticleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/models/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/repositories/ArticleRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/repositories/ArticleRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/serviceInterfaces/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/serviceInterfaces/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/servicesImpl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/servicesImpl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/E_commerceDbachna/servicesImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/E_commerceDbachna/servicesImpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +86,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ihebg/Downloads/xtendhrm-Auth&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,6 +97,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="xtendhrm-backend" />
@@ -176,6 +217,9 @@
       <workItem from="1700498022795" duration="13172000" />
       <workItem from="1700728146639" duration="3522000" />
       <workItem from="1701073364834" duration="25107000" />
+      <workItem from="1701592760685" duration="58537000" />
+      <workItem from="1702134053970" duration="18934000" />
+      <workItem from="1702244021801" duration="3060000" />
     </task>
     <servers />
   </component>
@@ -192,5 +236,44 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/E_commerceDbachna/servicesImpl/UserServiceImpl.java</url>
+          <line>24</line>
+          <properties class="E_commerceDbachna.servicesImpl.UserServiceImpl" method="addUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/UserController.java</url>
+          <line>28</line>
+          <properties class="E_commerceDbachna.controller.UserController" method="addUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ArticleController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ArticleController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/E_commerceDbachna/controller/ArticleController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

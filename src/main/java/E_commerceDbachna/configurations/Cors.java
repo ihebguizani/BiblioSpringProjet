@@ -52,6 +52,7 @@ public class Cors implements Filter,WebMvcConfigurer {
             response.setHeader("Access-Control-Allow-Headers", "Access-Control-Expose-Headers"+"Authorization, content-type," +
                     "USERID"+"ROLE"+
                     "access-control-request-headers,access-control-request-method,accept,origin,authorization,x-requested-with,responseType,observe");
+            response.setHeader("Content-Disposition", "attachment; filename=nom-du-fichier.ext");
             response.setStatus(HttpServletResponse.SC_OK);
         }
 

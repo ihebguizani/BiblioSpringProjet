@@ -29,8 +29,10 @@ public class UserServiceImpl implements IUserServices {
         user.setLastname(userDto.getLastname());
         user.setFirstname(userDto.getFirstname());
         user.setEmail(userDto.getEmail());
+        user.setAddress(userDto.getAddress());
+        user.setPhone(userDto.getPhone());
         user.setEnabled(true);
-        /*
+
         switch(userDto.getRole()) {
             case "ADMIN":
                 user.setRole(IRoleRepository.findByRoleName("ADMIN").get(0));
@@ -38,12 +40,12 @@ public class UserServiceImpl implements IUserServices {
             case "CLIENT":
                 user.setRole(IRoleRepository.findByRoleName("CLIENT").get(0));
                 break;
-        }*/
+        }
         userRepository.save(user);
 
 
         UserDto userDto1=new UserDto(userDto.getFirstname(),userDto.getLastname(),userDto.getEmail(),
-                                     userDto.getUsername(), userDto.getPassword(),userDto.getAddress(),userDto.getPhone());
+                userDto.getRole(), userDto.getUsername(), userDto.getPassword(),userDto.getAddress(),userDto.getPhone());
         return userDto1;
     }
 

@@ -19,10 +19,15 @@ public class Article {
     private double prix;
     private String nomArticle;
     private String description;
+    private byte[] image;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "idCategorie", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
     @JsonIgnore
     private Categorie categorie;
+    @ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.REFRESH,CascadeType.MERGE}, fetch=FetchType.EAGER)
+    @JoinColumn(name = "userId", nullable = false)
+    private User user;
+
 }
