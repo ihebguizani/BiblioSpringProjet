@@ -10,9 +10,6 @@
         <module name="XtendPlex-RH" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="XtendPlex-RH" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
